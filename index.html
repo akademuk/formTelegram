@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Слон</title>
+</head>
+<body>
+  <div class="banner">
+    <div class="logotype">
+      <a href="#">
+        <img src="img/logo.png" alt="Слон">
+      </a>
+    </div>
+    <div class="bannerContent">
+      <div class="bannerContentLeft">
+        <h1>Отримай добірку нерухомості в  
+          <span>alanya</span>
+        </h1>
+        <p>Туреччина 
+          <img src="img/flag.svg" alt="Туреччина">
+        </p>
+        <div class="bannerContentLeftContainer">
+          <div class="bannerContentLeftContainerSection">
+            <span>Вартість:</span>
+            <p>від $90 000</p>
+          </div>
+          <div class="bannerContentLeftContainerSection">
+            <span>Дохід від продажу:</span>
+            <p>до $30 000</p>
+          </div>
+          <div class="bannerContentLeftContainerSection">
+            <span>Дохід з оренди:</span>
+            <p>до $9 000 на рік</p>
+          </div>
+          <div class="bannerContentLeftContainerSection">
+            <span>Розстрочка:</span>
+            <p>безвідсоткова</p>
+          </div>
+        </div>
+      </div>
+      <div class="bannerContentRight">
+        <h2>Отримати добірку</h2>
+        <form id="contact-form" method="post" action="submit-form.php">
+          <div class="contact-form-input name">
+            <input type="text" name="name" placeholder="Ім'я" required>
+          </div>
+          <div class="contact-form-input phone">
+            <input type="tel" name="phone" placeholder="Телефон" required>
+          </div>
+          <div class="contact-form-input">
+            <select name="contact-method">
+              <option value="" disabled selected>Як зв'язатися</option>
+              <option value="phone">telefone</option>
+              <option value="sms">sms</option>
+              <option value="message">message</option>
+            </select>
+          </div>
+          <button type="submit" class="form-btn">Надіслати
+            <img src="img/btnArrow.svg" alt="Надіслати">
+          </button>
+        </form>
+      </div>
+    </div>
+    <img src="img/home.png" alt="Слон" class="bannerImg">
+    <img src="img/homeMobile.png" alt="Слон" class="bannerImgMobile">
+  </div>
+
+  <script src="form.js"></script>
+</body>
+</html>
