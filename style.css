@@ -251,6 +251,9 @@ select option {
   max-width: 1180px;
   margin:auto;
 }
+.logotype {
+  margin-bottom: 0 !important;
+}
 
 
 
