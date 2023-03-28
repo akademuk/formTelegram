@@ -291,6 +291,9 @@ select option {
   .bannerImg {
     height: auto;
   }
+  .bannerContentRight {
+    width: 780px;
+  }
 }
 
 @media(max-width: 991px) {
@@ -348,6 +351,9 @@ select option {
     bottom: 0;
     max-width: 100%;
     object-fit: cover;
+  }
+  .bannerContentRight {
+    width: 100%;
   }
 }
 
