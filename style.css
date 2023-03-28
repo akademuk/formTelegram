@@ -305,7 +305,7 @@ select option {
     margin-bottom: 170px;
   }
   .bannerContentRight {
-    width: 100%;
+    width: 480px;
   }
 }
 
@@ -332,7 +332,6 @@ select option {
     margin-top: 32px;
   }
   .bannerContentRight {
-    width: 100%;
     box-sizing: border-box;
   }
   .bannerImg {
@@ -373,6 +372,10 @@ select option {
     font-size: 16px;
     line-height: 20px;
     text-align: left;
+  }
+  .bannerContentRight {
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
