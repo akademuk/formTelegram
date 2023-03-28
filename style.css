@@ -293,6 +293,16 @@ select option {
   }
 }
 
+@media(max-width: 991px) {
+  .banner {
+    height: auto;
+    box-sizing: border-box;
+  }
+  .logotype {
+    margin-bottom: 170px;
+  }
+}
+
 @media(max-width: 768px) {
   .banner {
     padding: 20px 16px 120px 16px;
