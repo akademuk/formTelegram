@@ -240,6 +240,22 @@ select option {
 .bannerImgMobile {
   display: none;
 }
+.banner {
+  height: 100vh;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.logotype {
+  margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -266,6 +282,9 @@ select option {
   .logotype {
     display: flex;
     justify-content: center;
+  }
+  .bannerImg {
+    height: auto;
   }
 }
 
