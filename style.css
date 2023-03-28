@@ -358,6 +358,9 @@ select option {
   .bannerContentRight {
     width: 100%;
   }
+  .logotype {
+    margin-bottom: 45px;
+  }
 }
 
 @media(max-width: 576px) {
@@ -374,9 +377,6 @@ select option {
 }
 
 @media(max-width: 400px) {
-  .bannerContentLeft > p {
-    justify-content: flex-start;
-  }
   .bannerContentLeftContainerSection {
     width: 49%;
   }
