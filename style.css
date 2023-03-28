@@ -244,15 +244,17 @@ select option {
   height: 100vh;
   box-sizing: border-box;
 }
-.logotype {
-  margin-bottom: 5%;
-}
 .bannerContent {
   max-width: 1180px;
   margin:auto;
 }
 .logotype {
+  max-width: 1180px;
+  margin: 0 auto;
+  width: 100%;
   margin-bottom: 0 !important;
+  display: flex;
+  justify-content: flex-start;
 }
 
 
@@ -306,6 +308,9 @@ select option {
   }
   .bannerContentRight {
     width: 480px;
+  }
+  .logotype {
+    margin-bottom: 45px !important;
   }
 }
 
