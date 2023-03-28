@@ -359,7 +359,7 @@ select option {
     width: 100%;
   }
   .logotype {
-    margin-bottom: 45px;
+    margin-bottom: 45px !important;
   }
 }
 
