@@ -304,6 +304,9 @@ select option {
   .logotype {
     margin-bottom: 170px;
   }
+  .bannerContentRight {
+    width: 100%;
+  }
 }
 
 @media(max-width: 768px) {
