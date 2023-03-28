@@ -243,12 +243,14 @@ select option {
 .banner {
   height: 100vh;
   box-sizing: border-box;
-  justify-content: space-between;
 }
 .logotype {
   margin-bottom: 5%;
 }
-
+.bannerContent {
+  max-width: 1180px;
+  margin:auto;
+}
 
 
 
